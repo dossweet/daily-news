@@ -1,65 +1,76 @@
-import Image from "next/image";
+import Link from "next/link";
+import { getAllNews, formatDate } from "@/lib/news";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export default function HomePage() {
+  const allNews = getAllNews();
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+      {/* Header */}
+      <header className="bg-white border-b border-slate-200 sticky top-0 z-10">
+        <div className="max-w-3xl mx-auto px-4 py-5">
+          <h1 className="text-2xl font-bold text-slate-800">
+            📰 每日资讯
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-sm text-slate-500 mt-1">
+            AI前沿 · 互联网动态 · 每日8点更新
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </header>
+
+      {/* Content */}
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        {allNews.length === 0 ? (
+          <div className="text-center py-20">
+            <div className="text-5xl mb-4">📭</div>
+            <p className="text-slate-500 text-lg">暂无资讯数据</p>
+            <p className="text-slate-400 text-sm mt-2">每日早上8点自动抓取更新</p>
+          </div>
+        ) : (
+          <div className="space-y-4">
+            {allNews.map((news) => (
+              <Link
+                key={news.date}
+                href={`/news/${news.date}`}
+                className="block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md hover:border-blue-200 transition-all duration-200 group"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="text-xs text-slate-400 font-medium uppercase tracking-wide">
+                      {formatDate(news.date)}
+                    </p>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      <span className="inline-flex items-center gap-1 text-xs bg-blue-50 text-blue-600 px-2 py-0.5 rounded-full font-medium">
+                        🤖 AI前沿 {news.aiNews.length}条
+                      </span>
+                      <span className="inline-flex items-center gap-1 text-xs bg-purple-50 text-purple-600 px-2 py-0.5 rounded-full font-medium">
+                        🌐 互联网动态 {news.internetNews.length}条
+                      </span>
+                      {news.englishReminder && (
+                        <span className="inline-flex items-center gap-1 text-xs bg-green-50 text-green-600 px-2 py-0.5 rounded-full font-medium">
+                          📚 英语学习
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <span className="text-slate-300 group-hover:text-blue-400 transition-colors text-lg mt-1">
+                    →
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Footer */}
+      <footer className="border-t border-slate-200 bg-white mt-8">
+        <div className="max-w-3xl mx-auto px-4 py-5 text-center text-xs text-slate-400">
+          由 <span className="text-slate-500">小谷</span> 的 AI 助手自动生成 · 每日8点更新
         </div>
-      </main>
-    </div>
+      </footer>
+    </main>
   );
 }

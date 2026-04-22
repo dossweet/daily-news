@@ -1,0 +1,56 @@
+// Auto-generated news data
+// Generated at: 2026-04-22T18:10:00+08:00
+
+export const NEWS_DATA = [
+  {
+    date: "2026-04-22",
+    aiNews: [
+      {
+        title: "智平方发布AlphaBrain Platform",
+        summary: "全球首个开源类脑VLA模型NeuroVLA，一次性开源具身智能三条前沿技术路线",
+        url: "https://www.36kr.com/newsflashes/3777810823468289",
+      },
+      {
+        title: "广东推动脑机接口与具身智能融合",
+        summary: "研发类脑计算架构，支持脑控康复人形机器人、外骨骼等外围设备研发",
+        url: "https://www.gd.gov.cn/zwgk/wjk/qbwj/ybh/content/post_4887796.html",
+      },
+      {
+        title: "广东发力AI芯片与6G融合",
+        summary: "开发高能效人工智能芯片和异构计算架构，聚焦量智融合、类脑芯片等前沿方向",
+        url: "https://www.gd.gov.cn/zwgk/wjk/qbwj/ybh/content/post_4887794.html",
+      },
+      {
+        title: "广东加码商业航天AI化",
+        summary: "加快先进卫星平台、载荷及太空算力研发，推动民商航天标准融合",
+        url: "https://www.gd.gov.cn/zwgk/wjk/qbwj/ybh/content/post_4887793.html",
+      },
+    ],
+    internetNews: [
+      {
+        title: "广东：推动L3级自动驾驶准入试点",
+        summary: "加速智能驾驶规模化应用，推进大湾区跨区域测试示范互认",
+        url: "https://www.gd.gov.cn/zwgk/wjk/qbwj/ybh/content/post_4887791.html",
+      },
+      {
+        title: "中办、国办重磅发文推进节能降碳",
+        summary: "意见从绿色转型、重点领域降碳、监督管理等方面作出部署",
+        url: "https://www.36kr.com/newsflashes/3777786270290944",
+      },
+      {
+        title: "东岳硅材Q1净利润暴增427%",
+        summary: "有机硅行业产品价格上涨，毛利率显著提升",
+        url: "https://www.36kr.com/newsflashes/3777782291502339",
+      },
+      {
+        title: "新东方第三财季净营收增19.8%",
+        summary: "净利润1.268亿美元，预计Q4同比增长15%~18%",
+        url: "https://www.36kr.com/newsflashes/3777770532164616",
+      },
+    ],
+    englishReminder: {
+      count: 30,
+      url: "https://english-app-ten.vercel.app/archive",
+    },
+  },
+] as const;
