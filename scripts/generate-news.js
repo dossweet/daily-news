@@ -45,7 +45,7 @@ function parseRSS(xml) {
   const itemMatches = xml.match(/<item[^>]*>[\s\S]*?<\/item>/gi) || [];
   for (const item of itemMatches.slice(0, 10)) {
     const getContent = (tag) => {
-      const m = item.match(new RegExp(`<${tag}[^>]*><!\[CDATA\[([\s\S]*?)\]\]></${tag}>|<${tag}[^>]*>([\s\S]*?)</${tag}>`, "i"));
+      const m = item.match(new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]></${tag}>|<${tag}[^>]*>([\\s\\S]*?)</${tag}>`));
       return m ? (m[1] || m[2] || "").trim() : "";
     };
     const title = getContent("title");
@@ -62,21 +62,23 @@ function parseRSS(xml) {
 }
 
 async function fetch36kr() {
+  // 36kr 被验证码拦截，改用 WIRED RSS 作为 AI/科技新闻来源
   try {
-    const xml = await fetchUrl("https://36kr.com/feed");
+    const xml = await fetchUrl("https://www.wired.com/feed/rss");
     return parseRSS(xml);
   } catch (e) {
-    console.warn("36kr fetch failed:", e.message);
+    console.warn("WIRED RSS fetch failed:", e.message);
     return [];
   }
 }
 
 async function fetchZhismart() {
+  // zhismart.com 已下线，改用 HN RSS 作为互联网资讯来源
   try {
-    const xml = await fetchUrl("https://www.zhismart.com/feed/");
+    const xml = await fetchUrl("https://hnrss.org/frontpage");
     return parseRSS(xml);
   } catch (e) {
-    console.warn("zhismart fetch failed:", e.message);
+    console.warn("HN RSS fetch failed:", e.message);
     return [];
   }
 }

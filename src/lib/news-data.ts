@@ -1,112 +1,55 @@
 // Auto-generated news data
-// Generated at: 2026-04-23T12:33:00+08:00
+// Generated at: 2026-04-23T13:15:23.274Z
 
 export const NEWS_DATA = [
   {
-    date: "2026-04-22",
-    aiNews: [
+    "date": "2026-04-23",
+    "aiNews": [
       {
-        title: "智平方发布AlphaBrain Platform",
-        summary: "全球首个开源类脑VLA模型NeuroVLA，一次性开源具身智能三条前沿技术路线",
-        url: "https://www.36kr.com/newsflashes/3777810823468289",
+        "title": "Lume Cube Edge Light Go Review (2026): Versatile, Portable",
+        "url": "https://www.wired.com/review/lume-cube-edge-light-go-portable-lamp/",
+        "summary": "Portable lamps are rarely, if ever, as powerful, precise, and multipurpose as the Lume Cube Edge Light Go."
       },
       {
-        title: "广东推动脑机接口与具身智能融合",
-        summary: "研发类脑计算架构，支持脑控康复人形机器人、外骨骼等外围设备研发",
-        url: "https://www.gd.gov.cn/zwgk/wjk/qbwj/ybh/content/post_4887796.html",
+        "title": "These New Smart Glasses From Ex-OnePlus Engineers Have a Hidden Cost",
+        "url": "https://www.wired.com/story/latitude-52-n-smart-glasses-from-ex-oneplus-engineers-have-a-hidden-cost/",
+        "summary": "The Kickstarter-funded glasses from L'Atitude 52°N have AI features bundled for 1 year, but the company doesn't know yet"
       },
       {
-        title: "广东发力AI芯片与6G融合",
-        summary: "开发高能效人工智能芯片和异构计算架构，聚焦量智融合、类脑芯片等前沿方向",
-        url: "https://www.gd.gov.cn/zwgk/wjk/qbwj/ybh/content/post_4887794.html",
+        "title": "The Best Robotic Pool Cleaners of 2026: Beatbot, iGarden, Dreame",
+        "url": "https://www.wired.com/story/best-pool-cleaning-robots/",
+        "summary": "Send the pool guy packing. One of these robotic buddies can maintain your water quality instead."
       },
       {
-        title: "广东加码商业航天AI化",
-        summary: "加快先进卫星平台、载荷及太空算力研发，推动民商航天标准融合",
-        url: "https://www.gd.gov.cn/zwgk/wjk/qbwj/ybh/content/post_4887793.html",
+        "title": "Best Fitbit Models for Beginners, Athletes, and Kids (2026)",
+        "url": "https://www.wired.com/story/best-fitbit/",
+        "summary": "The fitness trackers I'd recommend to beginners, athletes, and kids."
       },
+      {
+        "title": "Best Robot Vacuum of 2026: Shark, Eufy",
+        "url": "https://www.wired.com/story/best-robot-vacuum/",
+        "summary": "Tired of vacuuming? Hand the reins to a robot vacuum."
+      },
+      {
+        "title": "They Made D4vd a Star. Now They Want Him Convicted of Murder",
+        "url": "https://www.wired.com/d4vd-david-burke-celeste-rivas-hernandez-murder/",
+        "summary": "A legion of young fans propelled the singer D4vd to viral fame. Now that he’s been charged with the murder of 14-year-ol"
+      },
+      {
+        "title": "7 Best Shower Filters of 2026 Are WIRED-Tested and -Approved",
+        "url": "https://www.wired.com/gallery/best-shower-water-filters/",
+        "summary": "I tested leading filtered showerheads to see how well they remove total chlorine from your water."
+      },
+      {
+        "title": "A Startup Says It Grew Human Sperm in a Lab—and Used It to Make Embryos",
+        "url": "https://www.wired.com/story/startup-says-it-grew-human-sperm-in-a-lab-and-used-it-to-make-embryos/",
+        "summary": "Paterna Biosciences says it has determined the set of instructions needed to turn sperm-making stem cells into \"normal, "
+      }
     ],
-    internetNews: [
-      {
-        title: "广东：推动L3级自动驾驶准入试点",
-        summary: "加速智能驾驶规模化应用，推进大湾区跨区域测试示范互认",
-        url: "https://www.gd.gov.cn/zwgk/wjk/qbwj/ybh/content/post_4887791.html",
-      },
-      {
-        title: "中办、国办重磅发文推进节能降碳",
-        summary: "意见从绿色转型、重点领域降碳、监督管理等方面作出部署",
-        url: "https://www.36kr.com/newsflashes/3777786270290944",
-      },
-      {
-        title: "东岳硅材Q1净利润暴增427%",
-        summary: "有机硅行业产品价格上涨，毛利率显著提升",
-        url: "https://www.36kr.com/newsflashes/3777782291502339",
-      },
-      {
-        title: "新东方第三财季净营收增19.8%",
-        summary: "净利润1.268亿美元，预计Q4同比增长15%~18%",
-        url: "https://www.36kr.com/newsflashes/3777770532164616",
-      },
-    ],
-    englishReminder: {
-      count: 30,
-      url: "https://english-app-ten.vercel.app/archive",
-    },
-  },
-  {
-    date: "2026-04-23",
-    aiNews: [
-      {
-        title: "华为发布HarmonySpace 6座舱：行业首发舱内AI多模态感知系统",
-        summary: "基于MoLA 2.0架构的新一代鸿蒙座舱小艺智能体，首发AMS系统，实现全场景跨域交互",
-        url: "https://www.36kr.com/newsflashes/3779375900005380",
-      },
-      {
-        title: "华为乾崑ADS 5发布：面向自动驾驶的AI智能体",
-        summary: "基于WEWA 2.0世界模型架构，首发面向自动驾驶的乾崑OS，安全升级至六维防护",
-        url: "https://www.36kr.com/newsflashes/3779353259693059",
-      },
-      {
-        title: "Google：75%新代码已由AI生成，去年仅50%",
-        summary: "Sundar Pichai透露Google已创建"strike team"提升AI编程能力，追赶Anthropic的Claude Code",
-        url: "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/",
-      },
-      {
-        title: "国家人工智能产业投资基金入股上海黑湖科技",
-        summary: "黑湖科技新增国家AI产业投资基金等股东，注册资本由518万元增至558万元",
-        url: "https://aiqicha.baidu.com/company_detail_93438857074487",
-      },
-      {
-        title: "MIT诺奖得主Acemoglu：AI将扩大贫富差距",
-        summary: "Acemoglu称AI几乎"确定"会增加劳动与资本的差距，称行业现状将带来"一团糟",
-        url: "https://www.ft.com/content/0873e3cb-cb02-4b47-941f-14da74149670",
-      },
-    ],
-    internetNews: [
-      {
-        title: "超纯股份创业板IPO定于4月30日上会",
-        summary: "深圳证券交易所上市审核委员会将审议成都超纯应用材料股份有限公司首发申请",
-        url: "https://www.szse.cn/listing/projectdynamic/ipo/detail/index.html?id=1004226",
-      },
-      {
-        title: "景嘉微2025年净亏损1.65亿元，同比由盈转亏",
-        summary: "营收同比增长54%至7.2亿元，但净亏损1.65亿元；Q1营收同比下降18%",
-        url: "http://static.cninfo.com.cn/finalpage/2026-04-24/1225166815.PDF",
-      },
-      {
-        title: "国泰航空3月载客量同比增加24%",
-        summary: "第一季度载客量同比增长20%，货运载货量增长11%，国际出行需求持续复苏",
-        url: "https://www.36kr.com/newsflashes/3779319247524865",
-      },
-      {
-        title: "Spotify推出AI音乐标签，首批合作DistroKid",
-        summary: "Spotify与DDEX合作推出AI音乐披露标准，应对AI生成音乐泛滥威胁",
-        url: "https://www.theverge.com/news/785136/spotify-ai-slop-impersonation-disclosure",
-      },
-    ],
-    englishReminder: {
-      count: 30,
-      url: "https://english-app-ten.vercel.app/archive",
-    },
-  },
+    "internetNews": [],
+    "englishReminder": {
+      "count": 30,
+      "url": "https://english-app-ten.vercel.app/archive"
+    }
+  }
 ] as const;
