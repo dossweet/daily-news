@@ -1,5 +1,5 @@
 // Auto-generated news data
-// Generated at: 2026-04-22T18:10:00+08:00
+// Generated at: 2026-04-23T12:33:00+08:00
 
 export const NEWS_DATA = [
   {
@@ -46,6 +46,62 @@ export const NEWS_DATA = [
         title: "新东方第三财季净营收增19.8%",
         summary: "净利润1.268亿美元，预计Q4同比增长15%~18%",
         url: "https://www.36kr.com/newsflashes/3777770532164616",
+      },
+    ],
+    englishReminder: {
+      count: 30,
+      url: "https://english-app-ten.vercel.app/archive",
+    },
+  },
+  {
+    date: "2026-04-23",
+    aiNews: [
+      {
+        title: "华为发布HarmonySpace 6座舱：行业首发舱内AI多模态感知系统",
+        summary: "基于MoLA 2.0架构的新一代鸿蒙座舱小艺智能体，首发AMS系统，实现全场景跨域交互",
+        url: "https://www.36kr.com/newsflashes/3779375900005380",
+      },
+      {
+        title: "华为乾崑ADS 5发布：面向自动驾驶的AI智能体",
+        summary: "基于WEWA 2.0世界模型架构，首发面向自动驾驶的乾崑OS，安全升级至六维防护",
+        url: "https://www.36kr.com/newsflashes/3779353259693059",
+      },
+      {
+        title: "Google：75%新代码已由AI生成，去年仅50%",
+        summary: "Sundar Pichai透露Google已创建"strike team"提升AI编程能力，追赶Anthropic的Claude Code",
+        url: "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/",
+      },
+      {
+        title: "国家人工智能产业投资基金入股上海黑湖科技",
+        summary: "黑湖科技新增国家AI产业投资基金等股东，注册资本由518万元增至558万元",
+        url: "https://aiqicha.baidu.com/company_detail_93438857074487",
+      },
+      {
+        title: "MIT诺奖得主Acemoglu：AI将扩大贫富差距",
+        summary: "Acemoglu称AI几乎"确定"会增加劳动与资本的差距，称行业现状将带来"一团糟",
+        url: "https://www.ft.com/content/0873e3cb-cb02-4b47-941f-14da74149670",
+      },
+    ],
+    internetNews: [
+      {
+        title: "超纯股份创业板IPO定于4月30日上会",
+        summary: "深圳证券交易所上市审核委员会将审议成都超纯应用材料股份有限公司首发申请",
+        url: "https://www.szse.cn/listing/projectdynamic/ipo/detail/index.html?id=1004226",
+      },
+      {
+        title: "景嘉微2025年净亏损1.65亿元，同比由盈转亏",
+        summary: "营收同比增长54%至7.2亿元，但净亏损1.65亿元；Q1营收同比下降18%",
+        url: "http://static.cninfo.com.cn/finalpage/2026-04-24/1225166815.PDF",
+      },
+      {
+        title: "国泰航空3月载客量同比增加24%",
+        summary: "第一季度载客量同比增长20%，货运载货量增长11%，国际出行需求持续复苏",
+        url: "https://www.36kr.com/newsflashes/3779319247524865",
+      },
+      {
+        title: "Spotify推出AI音乐标签，首批合作DistroKid",
+        summary: "Spotify与DDEX合作推出AI音乐披露标准，应对AI生成音乐泛滥威胁",
+        url: "https://www.theverge.com/news/785136/spotify-ai-slop-impersonation-disclosure",
       },
     ],
     englishReminder: {
