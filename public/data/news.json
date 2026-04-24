@@ -30,7 +30,7 @@
       {
         "title": "They Made D4vd a Star. Now They Want Him Convicted of Murder",
         "url": "https://www.wired.com/d4vd-david-burke-celeste-rivas-hernandez-murder/",
-        "summary": "A legion of young fans propelled the singer D4vd to viral fame. Now that he’s been charged with the murder of 14-year-ol"
+        "summary": "A legion of young fans propelled the singer D4vd to viral fame. Now that he's been charged with the murder of 14-year-ol"
       },
       {
         "title": "7 Best Shower Filters of 2026 Are WIRED-Tested and -Approved",
@@ -44,6 +44,97 @@
       }
     ],
     "internetNews": [],
+    "englishReminder": {
+      "count": 30,
+      "url": "https://english-app-ten.vercel.app/archive"
+    }
+  },
+  {
+    "date": "2026-04-24",
+    "aiNews": [
+      {
+        "title": "实测ChatGPT最新生图模型三大发现",
+        "url": "https://www.huxiu.com/article/4853320.html",
+        "summary": "快刀青衣实测ChatGPT最新图像生成模型，发现其在文字渲染、多语言支持、图表生成方面的惊人能力"
+      },
+      {
+        "title": "AI转型，老板们没说破的四个底层逻辑",
+        "url": "https://www.huxiu.com/article/4853318.html",
+        "summary": "深度剖析企业AI转型背后的真实动机：成本控制、效率提升、竞争优势与组织变革"
+      },
+      {
+        "title": "给孩子的一封信：在AI平权时代，寻找通往未来的路",
+        "url": "https://www.huxiu.com/article/4853316.html",
+        "summary": "在AI能力逐渐普及的时代，如何培养孩子面向未来的核心竞争力"
+      },
+      {
+        "title": "第一批深度使用AI的人，正在被AI去技能化",
+        "url": "https://www.huxiu.com/article/4846729.html",
+        "summary": "警惕过度依赖AI工具导致个人能力退化的潜在风险"
+      },
+      {
+        "title": "谷歌不想赢英伟达",
+        "url": "https://www.huxiu.com/article/4853325.html",
+        "summary": "谷歌TPU与英伟达GPU的竞争背后，是两家巨头不同的战略定位"
+      },
+      {
+        "title": "深度解析2026 GTC：英伟达万亿订单背后的AI大爆发",
+        "url": "https://www.huxiu.com/article/4845458.html",
+        "summary": "英伟达GTC大会释放重磅信号：AI算力需求持续爆发，Token经济学成为新焦点"
+      },
+      {
+        "title": "Google Gemini可运行在单机隔离服务器，拔电即消失",
+        "url": "https://venturebeat.com/technology/googles-gemini-can-now-run-on-a-single-air-gapped-server-and-vanish-when-you-pull-the-plug",
+        "summary": "谷歌推出端侧Gemini新能力，主打隐私安全的离线AI体验"
+      },
+      {
+        "title": "OpenAI ChatGPT Images 2.0支持多语言文字、图表、地图甚至漫画生成",
+        "url": "https://venturebeat.com/technology/openais-chatgpt-images-2-0-is-here-and-it-does-multilingual-text-full-infographics-slides-maps-even-manga-seemingly-flawlessly",
+        "summary": "GPT-4o图像生成能力再升级，中文文字渲染和多语言支持成为亮点"
+      }
+    ],
+    "internetNews": [
+      {
+        "title": "腾讯混元Hy3模型开源",
+        "url": "https://www.huxiu.com/article/4850000.html",
+        "summary": "腾讯混元系列再添新成员，Hy3模型正式开源，性能对标国际主流开源模型"
+      },
+      {
+        "title": "汽车价格战，突然停了",
+        "url": "https://www.huxiu.com/article/4852997.html",
+        "summary": "国内车企价格战戛然而止，市场竞争进入新阶段"
+      },
+      {
+        "title": "中国换壳车，卖爆全球",
+        "url": "https://www.huxiu.com/article/4852644.html",
+        "summary": "中国汽车品牌通过差异化策略在全球市场实现快速增长"
+      },
+      {
+        "title": "小红书流量命门，变了",
+        "url": "https://www.huxiu.com/article/4852133.html",
+        "summary": "小红书商业化路径调整，流量分发机制发生重大变化"
+      },
+      {
+        "title": "宇树科技夺走优必选桂冠？",
+        "url": "https://www.huxiu.com/article/4851124.html",
+        "summary": "人形机器人赛道竞争加剧，宇树科技估值飙升引发行业格局变动"
+      },
+      {
+        "title": "\"陨落不死\"的诺基亚，市值突破4000亿了",
+        "url": "https://www.huxiu.com/article/4852745.html",
+        "summary": "诺基亚通过通信设备业务实现复兴，市值创十年新高"
+      },
+      {
+        "title": "奔驰崩了，在华销量大跌27%",
+        "url": "https://www.huxiu.com/article/4849479.html",
+        "summary": "传统豪华品牌在中国市场遭遇前所未有的挑战"
+      },
+      {
+        "title": "2026北京国际车展开幕",
+        "url": "https://www.huxiu.com/article/4850001.html",
+        "summary": "本届北京车展以\"引领出行未来\"为主题，电动化智能化成主旋律"
+      }
+    ],
     "englishReminder": {
       "count": 30,
       "url": "https://english-app-ten.vercel.app/archive"
