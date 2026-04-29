@@ -210,5 +210,86 @@
       "count": 30,
       "url": "https://english-app-ten.vercel.app/archive"
     }
+  },
+  {
+    "date": "2026-04-29",
+    "aiNews": [
+      {
+        "title": "DeepSeek-V4开源发布：以1/6成本逼近GPT-5.5/Claude Opus 4.7性能",
+        "url": "https://venturebeat.com/technology/deepseek-v4-arrives-with-near-state-of-the-art-intelligence-at-1-6th-the-cost-of-opus-4-7-gpt-5-5",
+        "summary": "DeepSeek-V4正式开源，1.6万亿参数MoE模型，API价格仅为GPT-5.5的1/7、Claude Opus 4.7的1/6，多项基准逼近前沿闭源模型"
+      },
+      {
+        "title": "Anthropic披露Claude降级真相：三层Harness变更导致能力下滑",
+        "url": "https://venturebeat.com/technology/mystery-solved-anthropic-reveals-changes-to-claudes-harnesses-and-operating-instructions-likely-caused-degradation",
+        "summary": "Anthropic公布事后分析：默认推理 effort下调、缓存bug、输出长度限制三条变更导致Claude能力下降，已全面回滚并补偿用户"
+      },
+      {
+        "title": "ASI-EVOLVE：自主优化训练数据/架构/算法的全栈AI研发框架",
+        "url": "https://venturebeat.com/orchestration/new-ai-framework-autonomously-optimizes-training-data-architectures-and-algorithms-outperforming-human-baselines",
+        "summary": "研究团队提出ASI-EVOLVE框架，实现AI辅助AI研发的完整自动化闭环，在数据工程、模型架构、强化学习算法上均超越人类设计基线"
+      },
+      {
+        "title": "合成受众AI来袭：或颠覆整个咨询行业",
+        "url": "https://venturebeat.com/technology/ai-synthetic-audiences-are-already-here-and-poised-to-upend-the-consulting-industry",
+        "summary": "AI合成虚拟受众可在2分钟内完成传统调研公司需4个月完成的工作，成本从数万降至几美元，准确率最高超90%"
+      },
+      {
+        "title": "OpenAI强硬回击增长质疑：一切业务\"运转如飞\"",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "OpenAI回应销售增长未达标报道称消费者/企业业务均在高速运转，称负面报道为\"典型标题党\"，同时宣布与亚马逊AWS深化合作"
+      },
+      {
+        "title": "DeepSeek-V4-Pro 2.5折优惠延期至5月31日，注册资本增至1500万",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "DeepSeek官网更新显示旗舰模型API优惠活动延长至5月底，创始人梁文锋持股从1%升至34%，公司资本实力大幅增强"
+      }
+    ],
+    "internetNews": [
+      {
+        "title": "阿联酋宣布5月1日起退出欧佩克及\"欧佩克+\"机制",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "阿联酋宣布将于5月1日退出石油输出国组织及欧佩克+机制，此举对全球原油供应格局和油价走势将产生重大影响"
+      },
+      {
+        "title": "美联储公布FOMC利率决议，鲍威尔\"最后一舞\"",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "美联储维持利率3.50%-3.75%不变，焦点集中在缩表节奏、油价对通胀的影响以及沃什接任前景，本次为鲍威尔任内最后一次FOMC会议"
+      },
+      {
+        "title": "谷歌、微软、亚马逊、Meta同天发布季度财报",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "美东时间4月29日盘后，四大科技巨头集中发布财报，投资者重点关注AI相关资本支出计划、数据中心投资规模及业绩指引"
+      },
+      {
+        "title": "第九届数字中国建设峰会在福州开幕",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "峰会以\"加快数智技术创新发展，深入推进数字中国建设\"为主题，国家数据局等主办，近400家企业参展，将发布数字中国发展报告"
+      },
+      {
+        "title": "剪映、猫箱、即梦AI因AI内容标识问题被网信部门查处",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "国家网信办依法对上述平台采取约谈、责令改正、警告等处置处罚措施，要求严格落实AI生成合成内容标识相关规定"
+      },
+      {
+        "title": "支付宝推出\"AI收\"，AI Agent商业化支付能力落地",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "继\"AI付\"之后，支付宝进一步推出\"AI收\"，帮助商家和个人开发者通过AI Agent实现按调用即时收款，智能体支付生态加速落地"
+      },
+      {
+        "title": "格力电器拟50-100亿元回购股份",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "格力电器公告拟以自有资金回购不低于50亿元、不超过100亿元社会公众股，其中70%以上用于注销减少注册资本"
+      },
+      {
+        "title": "瑞安航空CEO警告：今夏油价若不回落，多家欧洲航司或倒闭",
+        "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
+        "summary": "瑞安航空CEO奥利里表示，航油价格已从3月的每桶80美元飙升至150美元，若持续高位，汉莎、法荷航等竞争对手恐面临倒闭风险"
+      }
+    ],
+    "englishReminder": {
+      "count": 30,
+      "url": "https://english-app-ten.vercel.app/archive"
+    }
   }
 ]
