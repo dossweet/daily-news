@@ -222,7 +222,7 @@
       {
         "title": "Anthropic披露Claude降级真相：三层Harness变更导致能力下滑",
         "url": "https://venturebeat.com/technology/mystery-solved-anthropic-reveals-changes-to-claudes-harnesses-and-operating-instructions-likely-caused-degradation",
-        "summary": "Anthropic公布事后分析：默认推理 effort下调、缓存bug、输出长度限制三条变更导致Claude能力下降，已全面回滚并补偿用户"
+        "summary": "Anthropic公布事后分析：默认推理effort下调、缓存bug、输出长度限制三条变更导致Claude能力下降，已全面回滚并补偿用户"
       },
       {
         "title": "ASI-EVOLVE：自主优化训练数据/架构/算法的全栈AI研发框架",
@@ -285,6 +285,87 @@
         "title": "瑞安航空CEO警告：今夏油价若不回落，多家欧洲航司或倒闭",
         "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-04-29.html",
         "summary": "瑞安航空CEO奥利里表示，航油价格已从3月的每桶80美元飙升至150美元，若持续高位，汉莎、法荷航等竞争对手恐面临倒闭风险"
+      }
+    ],
+    "englishReminder": {
+      "count": 30,
+      "url": "https://english-app-ten.vercel.app/archive"
+    }
+  },
+  {
+    "date": "2026-05-24",
+    "aiNews": [
+      {
+        "title": "OpenAI 安全负责人 Aleksander Madry 离职",
+        "url": "https://x.com/aleks_madry/status/2057526428388786211",
+        "summary": "曾担任OpenAI安全主管的Aleksander Madry宣布离职，将专注于AI对经济影响的新方向研究"
+      },
+      {
+        "title": "Anthropic 开放 Claude Mythos Preview 安全工具",
+        "url": "https://www.anthropic.com/research/glasswing-initial-update",
+        "summary": "Anthropic向合格客户开放skills、Claude harness、威胁模型构建器等安全工具，并发布Project Glasswing更新"
+      },
+      {
+        "title": "ChatGPT 集成 Microsoft PowerPoint，AI生成演示文稿",
+        "url": "https://chatgpt.com/apps/powerpoint/",
+        "summary": "ChatGPT推出PowerPoint插件，通过对话即可创建和编辑演示文稿，支持所有ChatGPT订阅计划"
+      },
+      {
+        "title": "Anthropic 与微软洽谈使用 Maia 200 AI 芯片",
+        "url": "https://www.theinformation.com/",
+        "summary": "继SpaceX交易后，Anthropic拟租用Azure服务器搭载微软自研Maia 200芯片，以扩充Claude算力"
+      },
+      {
+        "title": "Figma 推出产品设计 AI Agent",
+        "url": "https://www.figma.com/blog/the-figma-agent-is-here/",
+        "summary": "Figma Design集成AI Agent，支持自动生成和编辑设计项目，跟随Canva和Adobe加入创意AI助手赛道"
+      },
+      {
+        "title": "Nvidia Q1 2027 财年数据中心收入同比增长 92%",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
+        "summary": "英伟达Q1总收入816亿美元，数据中心收入752亿美元创纪录，AI芯片需求持续爆发"
+      },
+      {
+        "title": "Intuit 裁员约 3000 人，押注AI转型",
+        "url": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/",
+        "summary": "Intuit裁员约17%员工，CEO表示将聚焦AI业务，将AI融入产品和服务"
+      },
+      {
+        "title": "CapCut 编辑功能将集成至 Google Gemini",
+        "url": "https://x.com/capcutapp/status/2057340757896216641",
+        "summary": "CapCut宣布用户将可在Gemini应用中直接编辑图像和视频，实现更无缝的创作体验"
+      }
+    ],
+    "internetNews": [
+      {
+        "title": "Trump 推迟签署 AI 行政令，称\"不喜欢其中某些部分\"",
+        "url": "https://www.politico.com/news/2026/05/21/white-house-postpones-ai-executive-order-signing-00931904",
+        "summary": "特朗普在最后一刻推迟签署AI监管行政令，认为可能成为AI发展的\"阻碍\"，并强调领先中国是首要考虑"
+      },
+      {
+        "title": "Spotify 将为作者提供 AI 生成有声书功能",
+        "url": "https://www.theverge.com/",
+        "summary": "Spotify即将推出AI语音生成有声书功能，帮助作者快速制作音频版本"
+      },
+      {
+        "title": "美国首次依据《Take It Down Act》逮捕AI深度伪造发布者",
+        "url": "https://www.theverge.com/",
+        "summary": "布鲁克林法院对两名涉嫌发布数千条未经同意的AI深度伪造内容的男子提起刑事指控"
+      },
+      {
+        "title": "Party Animals 取消AI视频创作比赛",
+        "url": "https://x.com/party_animals/status/2056710980751765726",
+        "summary": "游戏工作室因社区对AI生成内容的争议而取消比赛，称\"忽视了AI可能对玩家造成的伤害\""
+      },
+      {
+        "title": "谷歌 2026 I/O 大会发布 Gemini 3.5 及系列AI进展",
+        "url": "https://www.jiqizhixin.com/",
+        "summary": "谷歌I/O大会正式发布Gemini 3.5，DeepMind CEO Demis Hassabis做出多项重磅声明"
+      },
+      {
+        "title": "机器之心：Agent 从\"优等生\"到\"好员工\"还差什么",
+        "url": "https://www.jiqizhixin.com/",
+        "summary": "本周AI行业观察AI Agent从性能优秀到真正可用之间还存在哪些差距"
       }
     ],
     "englishReminder": {
