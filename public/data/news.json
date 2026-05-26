@@ -372,5 +372,86 @@
       "count": 30,
       "url": "https://english-app-ten.vercel.app/archive"
     }
+  },
+  {
+    "date": "2026-05-26",
+    "aiNews": [
+      {
+        "title": "白宫申请90亿美元为情报机构采购AI芯片",
+        "url": "https://www.nytimes.com/2026/05/22/us/politics/spy-agencies-ai-chips-shortage.html",
+        "summary": "CIA和NSA缺乏运行最新AI模型的计算能力，白宫批准90亿美元采购英伟达Grace Blackwell超算芯片"
+      },
+      {
+        "title": "Anthropic开放Claude Mythos Preview安全工具",
+        "url": "https://www.anthropic.com/research/glasswing-initial-update",
+        "summary": "Anthropic向合格客户开放skills、Claude harness等安全工具，并发布Project Glasswing更新及漏洞仪表盘"
+      },
+      {
+        "title": "Aleksander Madry离开OpenAI",
+        "url": "https://x.com/aleks_madry/status/2057526428388786211",
+        "summary": "前OpenAI安全主管宣布离职，将专注于AI对经济影响的新方向研究"
+      },
+      {
+        "title": "Anthropic与微软洽谈使用Maia 200 AI芯片",
+        "url": "https://www.theinformation.com/",
+        "summary": "继SpaceX大单后，Anthropic拟租用Azure服务器搭载微软自研Maia 200芯片扩充Claude算力"
+      },
+      {
+        "title": "ChatGPT集成PowerPoint，AI生成演示文稿",
+        "url": "https://chatgpt.com/apps/powerpoint/",
+        "summary": "ChatGPT推出PowerPoint插件，通过对话即可创建编辑演示文稿，支持所有订阅计划"
+      },
+      {
+        "title": "特朗普推迟签署AI行政令，称\"可能阻碍发展\"",
+        "url": "https://www.politico.com/news/2026/05/21/white-house-postpones-ai-executive-order-signing-00931904",
+        "summary": "特朗普最后一刻推迟AI监管行政令，认为可能成为发展阻碍，强调领先中国是首要目标"
+      },
+      {
+        "title": "iOS 27将原生支持Google Cast等AirPlay替代方案",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-24/apple-watch-needs-shake-up-amid-whoop-oura-google-fitbit-air-airpods-ios-27-mpjuh7ln",
+        "summary": "为满足欧盟数字市场法案要求，iOS 27将原生支持第三方投屏服务"
+      },
+      {
+        "title": "Figma发布AI Agent，自动生成产品设计",
+        "url": "https://www.figma.com/blog/the-figma-agent-is-here/",
+        "summary": "Figma Design集成AI Agent，支持自动生成和编辑设计项目，加入创意AI助手赛道"
+      }
+    ],
+    "internetNews": [
+      {
+        "title": "SpaceX第12次星舰飞行测试成功发射",
+        "url": "https://www.theverge.com/science/935835/watch-as-spacex-prepares-to-launch-its-first-v3-starship",
+        "summary": "SpaceX首枚V3星舰从Starbase发射升空"
+      },
+      {
+        "title": "美国首次依据《Take It Down Act》逮捕AI深度伪造发布者",
+        "url": "https://www.theverge.com/",
+        "summary": "布鲁克林法院对两名涉嫌发布数千条AI深度伪造内容的男子提起刑事指控"
+      },
+      {
+        "title": "Starcitizen众筹突破10亿美元大关",
+        "url": "https://www.theverge.com/2014/8/4/5960489/star-citizen",
+        "summary": "宣布14年、仍处于早期体验阶段的星公民累计众筹正式突破10亿美元"
+      },
+      {
+        "title": "Ansel Adams基金会谴责AI着色版作品被展览出售",
+        "url": "https://www.engadget.com/2180105/ansel-adams-trust-says-ai-colorized-version-moonrise-was-exhibited-without-permission/",
+        "summary": "Danziger Gallery未经许可展出并出售AI着色版安塞尔·亚当斯作品，基金会强烈谴责"
+      },
+      {
+        "title": "特斯拉确认第二代Roadster将在德州生产",
+        "url": "https://www.notateslaapp.com/news/4201/tesla-says-roadster-is-currently-in-testing-will-be-built-in-texas",
+        "summary": "特斯拉首席设计师确认二代Roadster将在德州工厂生产，alpha原型车正在测试中"
+      },
+      {
+        "title": "BuzzFeed被收购后将转型免费流媒体电视",
+        "url": "https://www.theverge.com/",
+        "summary": "Byron Allen收购BuzzFeed多数股权，计划打造AI驱动的本地新闻和优质内容流媒体平台"
+      }
+    ],
+    "englishReminder": {
+      "count": 30,
+      "url": "https://english-app-ten.vercel.app/archive"
+    }
   }
 ]
